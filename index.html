@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Vertical Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+
+    
+    <!-- Hamburger Menu Icon -->
+    <div id="menu-icon" class="menu-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- Vertical Menu -->
+    <nav class="vertical-menu">
+        <div class="menu-header">
+            <span>Menu</span>
+        </div>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#menu">Tasks</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+        <!-- Dark Mode Toggle -->
+        <label class="switch">
+            <input type="checkbox" id="dark-mode-toggle">
+            <span class="slider"></span>
+        </label>
+
+  <!-- Home Section -->
+  <section class="home" id="home">
+    <div class="home-text">
+      <h1>Welcome to Interactive menu webpage</h1>
+      <h2>A project for prodigy infotech internship</h2>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-text">
+      <span>About</span>
+      <h2>Interactive Menu Website</h2>
+      <p>This website is a task for prodigy infotech internship</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section class="menu" id="menu">
+    <div class="heading">
+      <h2>All tasks for prodigy infotech internship</h2>
+      <span> </span>
+    </div>
+    <div class="menu-container">
+      <div class="box">
+        <h2>1. Tic Tac Toe</h2>
+        <div id="box-image" class="box-img">
+          <img src="https://i.postimg.cc/13p8GyZP/image.png" alt="task 1">
+        </div>
+        
+        <h3>A Tic Tac Toe game developed with HTML, CSS, and JavaScript that maintains a scoreboard. Users can play with friends or against the computer.</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services" id="services">
+    <div class="heading">
+      <span>What this website Offer</span>
+      <h2>Services</h2>
+    </div>
+    <div class="services-container">
+      <div class="s-box">
+        <h3>Interactive Menu</h3>
+        <p>It offers a interactive menu, when user hover on the menu it changes random colors and when user open menu it change menu logo to close X</p>
+        <h3>Dark mode</h3>
+        <p>It offers a interactive button, when user click on the button it changes website color to dark like blue and black color theme and when user click it again it change website color back to default like white and blue theme</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="connect" id="contact">
+    <div class="connect-text">
+      <span>Get In Touch</span>
+      <h2>Contact Me</h2>
+    </div>
+    <div class="contact">
+      <div class="contact-box">
+        <h3>Contact Info</h3>
+        <span>Email: jpj24956@gmail.com</span>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
